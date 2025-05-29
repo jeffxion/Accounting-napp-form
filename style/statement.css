@@ -1,0 +1,157 @@
+.modal-header {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 5px 10px !important;
+}
+
+/* Statement style  */
+.no-dots {
+    list-style-type: none;
+}
+.statement-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.statement-title h5 {
+    font-size: 22px;
+    margin: auto 0;
+}
+.title-font {
+    font-size: 20px;
+}
+
+.table th {
+    vertical-align: middle;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#statement, #drillDown, #modaldrillDown {
+    /* max-width: 600px; */
+    margin: auto;
+}
+#statement .statement-title, #drillDown .statement-title, #modaldrillDown .statement-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#statement .statement-title h5, #drillDown .statement-title h5, #modaldrillDown .statement-title h5 {
+    font-size: 22px;
+    margin: auto 0px;
+}
+#statement .table th, #drillDown .table th, #modaldrillDown .table th, #statement .table td, #drillDown .table td, #modaldrillDown .table td {
+    vertical-align: middle;
+    text-align: right;
+}
+#statement .table th:first-child, #drillDown .table th:first-child, #modaldrillDown .table th:first-child, #statement .table td:first-child, #drillDown .table td:first-child, #modaldrillDown .table td:first-child {
+    text-align: left;
+    white-space: normal;
+}
+#statement .table tfoot, #drillDown .table tfoot, #modaldrillDown .table tfoot {
+    font-weight: bold;
+}
+#statement .table td, #drillDown .table td, #modaldrillDown .table td {
+    border-bottom: none;
+}
+#statement .underline-number, #drillDown .underline-number, #modaldrillDown .underline-number {
+    border-top: 2px solid #9b9b9b;
+    padding-bottom: 2px;
+    width: 10rem;
+}
+#statement .pl-35, #drillDown .pl-35, #modaldrillDown .pl-35 {
+    padding-left: 35px;
+}
+#statement .pl-60, #drillDown .pl-60, #modaldrillDown .pl-60 {
+    padding-left: 60px;
+}
+#statement .title-font, #drillDown .title-font, #modaldrillDown .title-font {
+    font-size: 20px;
+}
+#statement .height-space, #drillDown .height-space, #modaldrillDown .height-space {
+    height: 38px;
+}
+#statement .total, #drillDown .total, #modaldrillDown .total {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#statement .fs14, #drillDown .fs14, #modaldrillDown .fs14 {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+svg.react-datepicker__calendar-icon {
+    right: 0;
+    top: 3px;
+}
+.react-datepicker__view-calendar-icon input {
+    padding: 0.375rem 0.75rem;
+}
+
+/* Statement style  */
+
+.custom-flex {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding: 10px 5px;
+    font-family: "Oswald", sans-serif !important;
+}
+
+.btn-transparent-gray {
+    background-color: transparent;
+    color: #2d2d2d;
+    border: 1px solid #2d2d2d;
+    border-radius: 0.5rem;
+}
+
+.btn-transparent-gray:hover {
+    color: white;
+    background-color: #2d2d2d;
+}
+
+.btn-transparent-gray:focus {
+    box-shadow: unset !important;
+}
+
+.isActive {
+    background: rgb(165, 220, 134) !important;
+}
+
+.selectedTr {
+    background-color: #ccc;
+}
+
+.slide-bottom {
+    animation: slideDown 0.3s ease-in-out forwards;
+}
+.slide-up {
+    animation: slideUp 0.3s ease-in-out forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+   }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+   }
+}
+@keyframes slideUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+   }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+   }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "accounting-napp-form",
+  "version": "1.1.7",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bootstrap": "^5.3.5",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.9",
+    "react-datepicker": "^8.3.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1"
+  }
+}
